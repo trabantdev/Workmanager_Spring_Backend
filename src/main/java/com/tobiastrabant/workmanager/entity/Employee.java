@@ -99,6 +99,22 @@ public class Employee {
         this.creationTime = creationTime;
     }
 
+    public LocalDateTime getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(LocalDateTime lastUpdated) {
+        this.lastUpdated = lastUpdated;
+    }
+
+    public Set<Project> getAssignedProjects() {
+        return assignedProjects;
+    }
+
+    public void setAssignedProjects(Set<Project> assignedProjects) {
+        this.assignedProjects = assignedProjects;
+    }
+
     public EmployeeRole getRole() {
         return role;
     }
